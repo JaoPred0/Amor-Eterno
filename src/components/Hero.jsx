@@ -108,6 +108,7 @@ export default function Hero() {
           whileTap={{ scale: 0.95 }}
         >
           <span className="flex items-center space-x-2">
+            <span>Descobrir Mais</span>
             <motion.div
               animate={{ scale: [1, 1.2, 1] }}
               transition={{ duration: 1.5, repeat: Infinity }}
